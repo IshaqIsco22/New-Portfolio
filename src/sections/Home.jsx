@@ -12,6 +12,8 @@ import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "./../assets/Ishaq-Resume.pdf";
 import mine from "./../assets/Me.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHand } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
   return (
@@ -23,11 +25,13 @@ function Home() {
               data-aos="fade-up"
               className=" text-5xl font-bold sm:text-[2rem]"
             >
-              Hello!!! I am Ishaq I
+              Hello <FontAwesomeIcon icon={faHand} className="text-blue-500"/>
+               !!!
+              <h2></h2>I am Ishaq I
             </h2>
             <TypeAnimation
               data-aos="fade-up"
-              sequence={["React Js Developer", 2000]}
+              sequence={["React Js Developer", 2000, "Programmer", 2000]}
               speed={30}
               wrapper="h2"
               repeat={Infinity}
@@ -127,3 +131,5 @@ function Home() {
 }
 
 export default Home;
+
+const handWave =``

@@ -13,10 +13,11 @@ import {
   SiExpress,
   SiMui,
 } from "react-icons/si";
-import { GrCode } from "react-icons/gr";
+import { BsGithub  } from "react-icons/bs";
 import { FaSass } from "react-icons/fa";
 import SkillBox from "../chips/SkillBox";
 import { IoLogoReact } from "react-icons/io5";
+import { BiLogoNetlify } from "react-icons/bi";
 
 const Skills = () => {
   return (
@@ -76,10 +77,10 @@ const Skills = () => {
                   skill={"Node Js"}
                 />
                 <SkillBox
-                  logo={<FaSass />}
+                  logo={<BsGithub />}
                   black={"white"}
                   white={"black"}
-                  skill={"SASS"}
+                  skill={"Github"}
                 />
                 <SkillBox
                   logo={<SiMui />}
@@ -92,6 +93,12 @@ const Skills = () => {
                   black={"white"}
                   white={"black"}
                   skill={"React Native"}
+                />
+                <SkillBox
+                  logo={<BiLogoNetlify />}
+                  black={"black"}
+                  white={"white"}
+                  skill={"Netlify"}
                 />
               </div>
             </div>

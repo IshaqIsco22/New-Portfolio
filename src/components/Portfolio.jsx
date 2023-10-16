@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import NavBar from "../sections/NavBar";
 import Home from "../sections/Home";
 import Skills from "../sections/Skills";
+import Work from "../sections/Work";
+import Resume from "../sections/Resume";
 
 function Portfolio() {
   const [darkMode, setDarkMode] = useState(false);
@@ -14,6 +16,8 @@ function Portfolio() {
       <NavBar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Home darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Skills darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+      <Work darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+      <Resume darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
     </>
   );
 }
