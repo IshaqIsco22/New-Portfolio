@@ -5,6 +5,7 @@ import Home from "../sections/Home";
 import Skills from "../sections/Skills";
 import Work from "../sections/Work";
 import Resume from "../sections/Resume";
+import Footer from "../sections/Footer";
 
 function Portfolio() {
   const [darkMode, setDarkMode] = useState(false);
@@ -18,6 +19,7 @@ function Portfolio() {
       <Skills darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Work darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Resume darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+      <Footer darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
     </>
   );
 }

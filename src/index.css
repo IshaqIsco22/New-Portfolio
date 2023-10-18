@@ -60,3 +60,44 @@ html {
     transform: rotate(360deg);
   }
 }
+
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  display: inline-block;
+  transform-origin: 85% 85%;
+  }
+/* .container h2 .wave .FontAwesomeIcon{
+  transform: rotate(-45deg) rotateY(180deg);
+  color: var(--fourth);
+  font-size: 4.5rem;
+  margin-left: 0.5rem;
+} */
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

@@ -25,35 +25,47 @@ function Home() {
               data-aos="fade-up"
               className=" text-5xl font-bold sm:text-[2rem]"
             >
-              Hello <FontAwesomeIcon icon={faHand} className="text-blue-500"/>
-               !!!
-              <h2></h2>I am Ishaq I
+              Hello
+              <span className="wave">
+                {/* <i className="fa-solid fa-hand"></i> */}
+                <FontAwesomeIcon
+                  icon={faHand}
+                  // flip="horizontal"
+                  size="sm"
+                  className="text-blue-500 -rotate-45 ml-2 "
+                />
+              </span>
+              , I'm <span className="text-blue-500">Ishaq</span>
             </h2>
-            <TypeAnimation
-              data-aos="fade-up"
-              sequence={["React Js Developer", 2000, "Programmer", 2000]}
-              speed={30}
-              wrapper="h2"
-              repeat={Infinity}
-              className="text-blue-500 text-4xl font-bold sm:text-3xl"
-            />
+            <h2 data-aos="fade-up" className="text-4xl font-bold sm:text-3xl">
+              I am a{" "}
+              <TypeAnimation
+                data-aos="fade-up"
+                sequence={["React Js Developer", 2000, "Programmer", 2000]}
+                speed={30}
+                wrapper="h2"
+                repeat={Infinity}
+                className="text-blue-500 text-4xl inline-block font-bold sm:text-3xl"
+              />
+            </h2>
+
             <p
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              I'm a passionate about learning programming & developing websites.{" "}
+              A dev who's passionate about learning programming & developing websites.{" "}
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
-            <a
+            {/* <a
               href="https://www.linkedin.com/in/sarkar-sandip/"
               className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
             >
               <span> Hire Me</span>
-            </a>
+            </a> */}
             <a
               href={resumePDF}
-              className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-yellow-500"
+              className="flex items-center gap-2 border- text-[1rem] text-white bg-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-blue-500"
               download
             >
               <div className="flex items-center gap-1">
@@ -80,13 +92,13 @@ function Home() {
                 </a>
               </li>
               <li>
-                <a href="https://instagram.com/the_sandip___?igshid=ZDdkNTZiNTM=">
+                <a href="https://instagram.com/_.the_witcher._?igshid=NzZlODBkYWE4Ng==">
                   {" "}
                   <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
-                <a href="https://www.facebook.com/profile.php?id=100004767878989">
+                <a href="https://www.facebook.com/ishaq.pallithan?mibextid=ZbWKwL">
                   {" "}
                   <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
@@ -131,5 +143,3 @@ function Home() {
 }
 
 export default Home;
-
-const handWave =``

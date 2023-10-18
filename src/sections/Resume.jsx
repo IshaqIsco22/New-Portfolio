@@ -53,7 +53,7 @@ const Resume = () => {
                   I had the opportunity to work on FixBrix, a SaaS-based product
                   for construction management as a Frontend developer. I have
                   been responsible for developing table, forms, dashboard using different react
-                  libraries. And also integrated api with assist of backend
+                  libraries. And also integrated api with support of backend
                   developers.
                 </p>
               </div>

@@ -96,8 +96,8 @@ const NavBar = ({toggleDarkMode, darkMode}) => {
                 <a
                   onClick={() => toggleNav(item.name)}
                   href={`#${item.name}`}
-                  className={`uppercase cursor-pointer text-black hover:text-yellow-600 font-bold ${
-                    item.name === activeIndex ? "text-yellow-600" : ""
+                  className={`uppercase cursor-pointer text-black hover:text-blue-600 font-bold ${
+                    item.name === activeIndex ? "text-blue-600" : ""
                   } `}
                 >
                   {item.name}
