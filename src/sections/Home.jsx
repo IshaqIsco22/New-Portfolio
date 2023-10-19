@@ -11,7 +11,7 @@ import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "./../assets/Ishaq-Resume.pdf";
-import mine from "./../assets/Me.png";
+import mine from "./../assets/Me-min.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHand } from "@fortawesome/free-solid-svg-icons";
 

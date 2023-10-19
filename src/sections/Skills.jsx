@@ -39,7 +39,7 @@ const Skills = () => {
               Here are my skills.
             </p>
             <div className="relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
-              <div className="first2 grid grid-cols-5 sm:grid-cols-3 gap-10">
+              <div className="first2 grid grid-cols-5 sm:grid-cols-2 gap-10">
                 <SkillBox
                   logo={<IoLogoHtml5 />}
                   black={"white"}
