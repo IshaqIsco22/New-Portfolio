@@ -1,6 +1,6 @@
 import todoApp from "../assets/to-do-app.png";
 import weather from "../assets/www.png";
-import portfolio from "../assets/MPv1.png"
+import portfolio from "../assets/MPv1.png";
 
 export const data = [
   {
@@ -24,7 +24,7 @@ export const data = [
     img: portfolio,
     title: "My Portfolio v1.0",
     desc: "Portfolio created by using ReactJS, Tailwind CSS, React-framer-motion",
-    link: "https://my-weather-app01.netlify.app",
+    link: "https://portfolio-ishaq.netlify.app",
     git: "https://github.com/IshaqIsco22/MyPortfolio",
-  }
+  },
 ];
