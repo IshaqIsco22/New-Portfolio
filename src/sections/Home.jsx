@@ -11,7 +11,7 @@ import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "./../assets/Ishaq-Resume.pdf";
-import mine from "./../assets/Me-min.png";
+import mine from "./../assets/IShaq.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHand } from "@fortawesome/free-solid-svg-icons";
 
@@ -117,8 +117,8 @@ function Home() {
             <img
               data-aos="fade-up"
               className=" h-[110%] w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              // src={"https://i.postimg.cc/bvTTD8TQ/NewMe.jpg"}
-              src={mine}
+              src={"https://i.postimg.cc/HWZr6vbB/Me-min.png"}
+              // src={mine}
               alt="mine"
             />
             {/* <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
