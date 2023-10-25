@@ -117,8 +117,8 @@ function Home() {
             <img
               data-aos="fade-up"
               className=" h-[110%] w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              // src={"https://i.postimg.cc/HWZr6vbB/Me-min.png"}
-              src={"https://i.postimg.cc/Y9hxNZm5/IShaq-1.png"}
+              src={"https://i.postimg.cc/HWZr6vbB/Me-min.png"}
+              // src={"https://i.postimg.cc/Y9hxNZm5/IShaq-1.png"}
               // src={mine}
               alt="mine"
             />
