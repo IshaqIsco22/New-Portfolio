@@ -32,10 +32,10 @@ function Home() {
                   icon={faHand}
                   // flip="horizontal"
                   size="sm"
-                  className="text-blue-500 -rotate-45 ml-2 "
+                  className="text-[#283F52] -rotate-45 ml-2 "
                 />
               </span>
-              , I'm <span className="text-blue-500">Ishaq</span>
+              , I'm <span className="text-[#283F52]">Ishaq</span>
             </h2>
             <h2 data-aos="fade-up" className="text-4xl font-bold sm:text-3xl">
               I am a{" "}
@@ -45,7 +45,7 @@ function Home() {
                 speed={30}
                 wrapper="h2"
                 repeat={Infinity}
-                className="text-blue-500 text-4xl inline-block font-bold sm:text-3xl"
+                className="text-[#FBB100] text-4xl inline-block font-bold sm:text-3xl"
               />
             </h2>
 
@@ -65,7 +65,7 @@ function Home() {
             </a> */}
             <a
               href={resumePDF}
-              className="flex items-center gap-2 border- text-[1rem] text-white bg-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-blue-500"
+              className="flex items-center gap-2 border- text-[1rem] text-white bg-[#FBB100] px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-[#283F52]"
               download
             >
               <div className="flex items-center gap-1">
@@ -117,7 +117,7 @@ function Home() {
             <img
               data-aos="fade-up"
               className=" h-[110%] w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src={"https://i.postimg.cc/HWZr6vbB/Me-min.png"}
+              src={"https://i.postimg.cc/ZYC1R40t/heyy.png"}
               // src={"https://i.postimg.cc/Y9hxNZm5/IShaq-1.png"}
               // src={mine}
               alt="mine"
