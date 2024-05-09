@@ -117,9 +117,9 @@ function Home() {
             <img
               data-aos="fade-up"
               className=" h-[110%] w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src={"https://i.postimg.cc/ZYC1R40t/heyy.png"}
+              // src={"https://i.postimg.cc/ZYC1R40t/heyy.png"}
               // src={"https://i.postimg.cc/Y9hxNZm5/IShaq-1.png"}
-              // src={mine}
+              src={mine}
               alt="mine"
             />
             {/* <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
