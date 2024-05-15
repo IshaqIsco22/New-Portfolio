@@ -38,7 +38,7 @@ const Resume = () => {
                   Frontend Developer Intern
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  GITBITZ Software Private Limited
+                  FixBrix.in
                 </span>
                 <span className=" text-[.9rem] font-semibold text-[#283F52] sm:text-base">
                   Jul 2022 - Jul 2023
