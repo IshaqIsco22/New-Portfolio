@@ -53,7 +53,7 @@ function Home() {
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              A dev who's passionate about learning programming & developing websites.{" "}
+              A dev who's passionate about learning, programming & developing websites.{" "}
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
