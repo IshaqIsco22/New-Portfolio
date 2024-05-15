@@ -27,13 +27,13 @@ function Home() {
             >
               Hello
               <span className="wave">
-                {/* <i className="fa-solid fa-hand"></i> */}
-                <FontAwesomeIcon
+                {/* <FontAwesomeIcon
                   icon={faHand}
                   // flip="horizontal"
                   size="sm"
                   className="text-[#283F52] -rotate-45 ml-2 "
-                />
+                 /> */}
+                &#x1F44B;
               </span>
               , I'm <span className="text-[#283F52]">Ishaq</span>
             </h2>
