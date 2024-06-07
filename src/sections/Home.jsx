@@ -10,7 +10,7 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "./../assets/Ishaq_RESUME.pdf";
+import resumePDF from "./../assets/Ishaq-I-Resume.pdf";
 import mine from "./../assets/IShaq.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHand } from "@fortawesome/free-solid-svg-icons";
